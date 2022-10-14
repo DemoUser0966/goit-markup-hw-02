@@ -1,3 +1,4 @@
+
 .head {
     color: #212121;
     text-decoration: none;
@@ -94,7 +95,7 @@ font-family: 'Roboto';
  
 }
 .footer-adress {
-    color: #FFFFFF;
+    color: #FFFFFF ;
     text-decoration: none;
     font-family: 'Roboto';
         font-style: normal;
@@ -103,7 +104,7 @@ font-family: 'Roboto';
         line-height: 1.7;
 }
 .footer-name {
-    color:#212121;
+    color:#FFFFFF;
     text-decoration: none;
     font-family: 'Raleway';
         font-style: normal;
@@ -112,9 +113,18 @@ font-family: 'Roboto';
         line-height: 31px
 }
 /*portfolio*/
+
+ul {
+    list-style-type: none;
+}
 .portfolio-button {
-    background-color: #2196F3;
-    color: #FFFFFF;
+    cursor: pointer;
+        width: 130px;
+        height: 38px;
+        left: 961px;
+        top: 174px;
+  
+    
 }
 .portfolio-button: hover {
     background-color: #F5F4FA;
@@ -133,11 +143,11 @@ font-style: normal;
     font-weight: 400;
     font-size: 16px;
 }
-
+ /*
 .photo{
     position: absolute;
         width: 370px;
         height: 294px;
         left: 1015px;
         top: 262px;
-}
+*/
