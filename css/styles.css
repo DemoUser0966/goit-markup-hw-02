@@ -69,7 +69,7 @@ ul {
   height: 56px;
   left: 636px;
   top: 428px;
-  font-style: normal;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -137,13 +137,13 @@ ul {
   background: var(--background-color-button);
   color: #4d5ae5;
   font-weight: 500;
+  font-family: inherit;
   font-size: 16px;
   line-height: 1.5;
   cursor: pointer;
 }
 
-.button-portfolio:hover,
-:focus {
+.button-portfolio:hover,.button-portfolio:focus {
   background-color: var(--accent-color);
   color: var(--white-color);
 }
