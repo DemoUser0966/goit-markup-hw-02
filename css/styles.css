@@ -8,7 +8,7 @@
 }
 
 body {
-  font-family: roboto;
+  font-family: "Roboto", sans-serif;
   color: var(--title-text-color);
 }
 
@@ -22,14 +22,12 @@ ul {
   text-decoration: none;
 }
 .navigation:hover,
-:focus {
-  color:var(--accent-color);
+.navigation:focus {
+  color: var(--accent-color);
 }
 
 .address {
   color: var(--text-color);
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   text-decoration: none;
@@ -38,8 +36,7 @@ ul {
 /*body*/
 
 .title {
-  font-family: Raleway;
-  font-style: normal;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.8;
@@ -52,8 +49,6 @@ ul {
 }
 
 .hero-section {
-  width: 1440px;
-  height: 600px;
   left: 0px;
   top: 72px;
   background-color: var(--title-text-color);
@@ -64,8 +59,7 @@ ul {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  width: 494px;
-  height: 120px;
+  max-width: 494px;
   left: 473px;
   top: 260px;
 }
@@ -80,12 +74,12 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   background: #4d5ae5;
-  color: var(--background-color);
+  color: var(--white-color);
   cursor: pointer;
 }
 
 .hero-button:hover,
-:focus {
+.hero-button:focus {
   background-color: var(--accent-color);
 }
 
@@ -122,8 +116,7 @@ ul {
   background: var(--title-text-color);
 }
 .title-footer {
-  font-family: Raleway;
-  font-style: normal;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.3;
@@ -143,14 +136,10 @@ ul {
 .button-portfolio {
   background: var(--background-color-button);
   color: #4d5ae5;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  width: 69px;
-  height: 48px;
   cursor: pointer;
-  
 }
 
 .button-portfolio:hover,
